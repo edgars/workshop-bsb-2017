@@ -15,7 +15,7 @@ Brazil
 * Java 8 Instalado
 * Preferencialmente 5GB de espaço em disco livre
 * Preferencialmente 4-8 GB Memória
-* Instalar o WSO2 Developer Studio
+* Instalar o WSO2 Developer Studio - Tooling : https://wso2.com/integration#download
 * Criar uma conta no WSO2 Cloud - http://wso2.com/cloud
 
 
