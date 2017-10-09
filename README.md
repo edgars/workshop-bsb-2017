@@ -11,12 +11,12 @@ Brazil
 * Conhecimento básico em programação
 * Conhecimento básico de aplicações web
 * Trazer seu próprio laptop
-** Qualquer sistema operacional
-** Java 8 Instalado
-** Preferencialmente 5GB de espaço em disco livre
-** Preferencialmente 4-8 GB Memória
-** Instalar o WSO2 Developer Studio
-* Criar uma conta no WSO2 Cloud - http://wso2.com/cloud/|http://wso2.com/cloud/
+* Qualquer sistema operacional
+* Java 8 Instalado
+* Preferencialmente 5GB de espaço em disco livre
+* Preferencialmente 4-8 GB Memória
+* Instalar o WSO2 Developer Studio
+* Criar uma conta no WSO2 Cloud - http://wso2.com/cloud
 
 
 
