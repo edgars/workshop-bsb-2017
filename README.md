@@ -21,11 +21,15 @@ Brazil
 * Realizar o Download do WSO2 API Manager 
 
 # Laboratórios Integrator 
-### SQL Usadas nos Exemplos
-
+### Informações de Acesso para o DSS
 * URL Remota: jdbc:mysql://mysql.storage.cloud.wso2.com:3306/mybank_eascorp
 * Default User: admin_s4GK3rOB
 * Password: (Pergunte ao Edgar) 
 * Pode usar o Script em sua máquina local. [Link](https://github.com/edgars/workshop-bsb-2017/blob/master/workshop_EI.sql)
+
+#### SQLs
+
+* CustomerDSS: `SELECT customer_ID,name,email,salary, mobile, comments from customers`
+
 
 
