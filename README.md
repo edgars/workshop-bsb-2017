@@ -31,5 +31,12 @@ Brazil
 
 * CustomerDSS: `SELECT customer_ID,name,email,salary, mobile, comments from customers`
 
+* BankAccountsDSS :
+`SELECT c.customer_ID as customerID,
+a.accountNumber, a.agency, c.name from (account a join customers c) 
+where (a.customer_ID = c.customer_ID) `
+
+
+
 
 
