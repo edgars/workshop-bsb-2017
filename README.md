@@ -17,6 +17,15 @@ Brazil
 * Preferencialmente 4-8 GB Memória
 * Instalar o WSO2 Developer Studio - Tooling : https://wso2.com/integration#download
 * Criar uma conta no WSO2 Cloud - http://wso2.com/cloud
+* Realizar o Download do WSO2 Enterprise Integrator - https://wso2.com/integration#download
+* Realizar o Download do WSO2 API Manager 
 
+# Laboratórios Integrator 
+### SQL Usadas nos Exemplos
+
+* URL Remota: jdbc:mysql://mysql.storage.cloud.wso2.com:3306/mybank_eascorp
+* Default User: admin_s4GK3rOB
+* Password: (Pergunte ao Edgar) 
+* Pode usar o Script em sua máquina local. 
 
 
