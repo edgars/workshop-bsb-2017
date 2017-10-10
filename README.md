@@ -38,6 +38,15 @@ Brazil
 a.accountNumber, a.agency, c.name from (account a join customers c) 
 where (a.customer_ID = c.customer_ID) `
 
+#### ODATA Links
+
+* http://localhost:8280/odata/apids/default/
+* http://localhost:8280/odata/apids/default/customers
+* http://localhost:8280/odata/apids/default/customers?$filter=salary eq 3500
+* http://localhost:8280/odata/apids/default/customers?$filter=salary eq 3500&$select=name,mobile
+* Mais exemplos: https://docs.wso2.com/display/DSS350/OData+Sample 
+
+
 
 
 
