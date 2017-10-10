@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/airport-poc" name="airport-poc" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="GET" uri-template="/api/airports/{country}">
+        <inSequence>
+            <property name="REST_URL_POSTFIX" scope="axis2" type="STRING" value="/"/>
+            <property action="remove" name="NO_ENTITY_BODY" scope="axis2"/>
+            <call description="">
+                <endpoint>
+                    <http method="get" statistics="enable" trace="enable" uri-template="http://eascorp-airport.wso2apps.com/airport/country/{uri.var.country}"/>
+                </endpoint>
+            </call>
+            <datamapper config="gov:datamapper/airport-dm-config.dmc" description="Format JSON" inputSchema="gov:datamapper/airport-dm-config_inputSchema.json" inputType="JSON" outputSchema="gov:datamapper/airport-dm-config_outputSchema.json" outputType="JSON"/>
+            <property name="messageType" scope="axis2" type="STRING" value="application/json"/>
+            <respond/>
+        </inSequence>
+        <outSequence/>
+        <faultSequence/>
+    </resource>
+</api>
