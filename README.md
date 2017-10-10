@@ -19,6 +19,7 @@ Brazil
 * Criar uma conta no WSO2 Cloud - http://wso2.com/cloud
 * Realizar o Download do WSO2 Enterprise Integrator - https://wso2.com/integration#download
 * Realizar o Download do WSO2 API Manager 
+* Banco de Dados MySQL Local Instalado para caso a Internet esteja lenta.
 
 # Laboratórios Integrator 
 ### Informações de Acesso para o DSS
