@@ -30,6 +30,8 @@ Brazil
 #### SQLs
 
 * CustomerDSS: `SELECT customer_ID,name,email,salary, mobile, comments from customers`
+* REST (PostMan) : http://localhost:8280/services/CustomerDSS/customers 
+* TryOut 
 
 * BankAccountsDSS :
 `SELECT c.customer_ID as customerID,
