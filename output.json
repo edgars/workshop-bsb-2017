@@ -1,0 +1,21 @@
+{
+	"Airports": {
+		"Airport": [
+			{
+				"AirportCode": "LLS",
+				"CityOrAirportName": "LASLOMITAS",
+				"CountryCode": 303
+			},
+			{
+				"AirportCode": "LLS",
+				"CityOrAirportName": "LASLOMITAS",
+				"CountryCode": 303
+			},
+			{
+				"AirportCode": "LMD",
+				"CityOrAirportName": "LOSMENUCOS",
+				"CountryCode": 303
+			}
+		]
+	}
+}
