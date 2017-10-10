@@ -46,14 +46,17 @@ where (a.customer_ID = c.customer_ID) `
 * http://localhost:8280/odata/apids/default/customers?$filter=salary eq 3500
 * http://localhost:8280/odata/apids/default/customers?$filter=salary eq 3500&$select=name,mobile
 * Mais exemplos: https://docs.wso2.com/display/DSS350/OData+Sample 
-  * Exemplo POST: `       {
+  * Exemplo POST: 
+`{
             "comments": "new Account adicionado via ODATA",
             "name": "Clarissa Lispector",
             "mobile": "+552199999",
             "salary": 9500,
             "email": "clispector@abl.gov.br"
-            }'
-            
+}`
+
+#### Developer Studio
+            
             
 
 
