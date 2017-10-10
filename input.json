@@ -1,0 +1,62 @@
+{
+	"search": {
+		"Airports": {
+			"Airport": [
+				{
+					"AirportCode": "LLS",
+					"CityOrAirportName": "LASLOMITAS",
+					"Country": "Argentina",
+					"CountryAbbrviation": "AR",
+					"CountryCode": 303,
+					"GMTOffset": 3,
+					"RunwayLengthFeet": 2775,
+					"RunwayElevationFeet": 423,
+					"LatitudeDegree": 24,
+					"LatitudeMinute": 42,
+					"LatitudeSecond": 0,
+					"LatitudeNpeerS": "S",
+					"LongitudeDegree": 60,
+					"LongitudeMinute": 36,
+					"LongitudeSeconds": 0,
+					"LongitudeEperW": "W"
+				},
+				{
+					"AirportCode": "LLS",
+					"CityOrAirportName": "LASLOMITAS",
+					"Country": "Argentina",
+					"CountryAbbrviation": "AR",
+					"CountryCode": 303,
+					"GMTOffset": 3,
+					"RunwayLengthFeet": 2775,
+					"RunwayElevationFeet": 423,
+					"LatitudeDegree": 24,
+					"LatitudeMinute": 42,
+					"LatitudeSecond": 0,
+					"LatitudeNpeerS": "S",
+					"LongitudeDegree": 60,
+					"LongitudeMinute": 36,
+					"LongitudeSeconds": 0,
+					"LongitudeEperW": "W"
+				},
+				{
+					"AirportCode": "LMD",
+					"CityOrAirportName": "LOSMENUCOS",
+					"Country": "Argentina",
+					"CountryAbbrviation": "AR",
+					"CountryCode": 303,
+					"GMTOffset": 3,
+					"RunwayLengthFeet": 4840,
+					"RunwayElevationFeet": 2800,
+					"LatitudeDegree": 40,
+					"LatitudeMinute": 50,
+					"LatitudeSecond": 0,
+					"LatitudeNpeerS": "S",
+					"LongitudeDegree": 68,
+					"LongitudeMinute": 8,
+					"LongitudeSeconds": 0,
+					"LongitudeEperW": "W"
+				}
+			]
+		}
+	}
+}
