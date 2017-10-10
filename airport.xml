@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<api context="/airport" name="airport" xmlns="http://ws.apache.org/ns/synapse">
+    <resource methods="GET" uri-template="/country/{country}">
+        <inSequence>
+            <property action="remove" name="NO_ENTITY_BODY" scope="axis2"/>
+            <payloadFactory media-type="xml">
+                <format>
+                    <web:GetAirportInformationByCountry xmlns:web="http://www.webserviceX.NET">
+                        <web:country>$1</web:country>
+                    </web:GetAirportInformationByCountry>
+                </format>
+                <args>
+                    <arg evaluator="xml" expression="get-property('uri.var.country')"/>
+                </args>
+            </payloadFactory>
+            <header name="Action" scope="transport" value="urn:GetAirportInformationByCountry"/>
+            <call>
+                <endpoint>
+                    <address format="soap11" statistics="enable" trace="enable" uri="http://www.webservicex.net/airport.asmx"/>
+                </endpoint>
+            </call>
+            <class name="br.com.wso2.ext.ExtractAirports"/>
+            <payloadFactory media-type="xml">
+                <format>
+                    <search xmlns="">$1</search>
+                </format>
+                <args>
+                    <arg evaluator="xml" expression="get-property('AIRPORTS')"/>
+                </args>
+            </payloadFactory>
+            <property name="messageType" scope="axis2" type="STRING" value="application/json"/>
+            <respond/>
+        </inSequence>
+        <outSequence>
+            <send/>
+        </outSequence>
+        <faultSequence/>
+    </resource>
+</api>
