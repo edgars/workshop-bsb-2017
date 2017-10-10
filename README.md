@@ -26,6 +26,6 @@ Brazil
 * URL Remota: jdbc:mysql://mysql.storage.cloud.wso2.com:3306/mybank_eascorp
 * Default User: admin_s4GK3rOB
 * Password: (Pergunte ao Edgar) 
-* Pode usar o Script em sua máquina local. [Link] (https://github.com/edgars/workshop-bsb-2017/blob/master/workshop_EI.sql)
+* Pode usar o Script em sua máquina local. [Link](https://github.com/edgars/workshop-bsb-2017/blob/master/workshop_EI.sql)
 
 
