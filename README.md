@@ -56,6 +56,8 @@ where (a.customer_ID = c.customer_ID) `
 }`
 
 #### Developer Studio
+
+* Doc Data Mapper: https://docs.wso2.com/display/EI611/Data+Mapper+Mediator
             
             
 
